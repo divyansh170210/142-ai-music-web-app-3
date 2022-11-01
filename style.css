@@ -1,0 +1,74 @@
+body
+{
+    background-size: cover;
+    background: linear-gradient(to left, #4776e6, #8e54e9);
+}
+
+.heading
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    width: 99%;
+}
+
+.note
+{
+    font-size: 16px;
+    font-weight:400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.div_speed
+{
+    float: left;
+}
+
+#speed
+{
+    font-size: 25px;
+    font-family: "Trirong", serif;;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+#volume
+{
+    font-size: 25px;
+    font-family: "Trirong", serif;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.play
+{
+    background: linear-gradient(#1d976c,#93f9b9);
+    font-size: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+canvas
+{
+border: solid 7px yellow;
+border-radius: 150px;
+}
+.copy_right_footer {
+    position: fixed;
+    background: linear-gradient(to left, #5d4157, #a8caba);
+    bottom: 0;
+    width: 100%;
+    font-size: 25px;
+    color: rgb(55, 255, 0);
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(0, 255, 229);
+    font-family:'Courier New', Courier, monospace
+ }
